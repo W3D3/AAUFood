@@ -428,7 +428,7 @@ function sanitizeName(val) {
         val = val.replace(/^[1-9].\s/, ""); // Replace '1. ', '2. '
         val = val.replace(/^[,\.\-\\\? ]+/, "");
         val = val.replace(/[,\.\-\\\? ]+$/, "");
-        val = val.replace(/(\([A-Z]+(, [A-Z])*\))/g , ""); // Replace allergens
+        val = val.replace(/(\([A-Z]+(,( )?[A-Z])*\))/g , ""); // Replace allergens
         return val;
     } else if (typeof val === "object" && val.length > 0) {
         for (let i = 0; i < val.length; i++) {
