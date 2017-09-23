@@ -43,7 +43,6 @@
     "babel-core": "^6.25.0",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "~1.6.0",
-    "bootstrap-loader": "~2.2.0",
     "cross-env": "~5.0.5",
     "css-loader": "~0.28.7",
     "exports-loader": "~0.6.3",
