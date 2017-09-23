@@ -1,5 +1,6 @@
 require('./styles/app.scss');
-require('bootstrap');
+import 'bootstrap/js/dist/util';
+import 'bootstrap/js/dist/dropdown';
 
 window.cookieconsent_options = {
     container: "#cookieConsentHolder",
